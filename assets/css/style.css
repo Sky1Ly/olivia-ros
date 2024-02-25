@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+i {
+  font-size: 54px;
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        background-image: url(../img/bg-hero.jpg);
+        height: 630px;
+        background-size: cover;
+    }
+
+    header .container-fluid {
+        margin: 79px 178px 158px 0;
+        float: right;
+        width: 616px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        background-image: url(../img/bg-hero.jpg);
+        height: 610px;
+        background-size: cover;
+    }
+
+    header .container-fluid {
+        margin: 93px 22px 150px 22px;
+        text-shadow: 2px 3px #000;
+        float: right;
+        width: 340px;
+    }
+}
+
+.jobs img {
+  height: 232px;
+  object-fit: cover;
+}
+
+footer {
+  height: 74px;
+}
